@@ -72,3 +72,11 @@ df.plot(x='Name', y ='Marks',kind='bar')
 plt.title("Marks using Pandas")
 plt.show()'''
 
+names = ['A', 'B', 'C', 'D'] 
+marks = [75, 82, 90, 68] 
+plt.bar(names, marks) 
+plt.axhline(y=40) 
+plt.xlabel('Students') 
+plt.ylabel('Marks') 
+plt.title('Student Performance') 
+plt.show() 
