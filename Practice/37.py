@@ -5,3 +5,4 @@ marks = {
     'D': 48, 
     'E': 28
     }
+print(marks)
